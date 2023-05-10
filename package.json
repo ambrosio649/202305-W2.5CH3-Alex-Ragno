@@ -8,7 +8,8 @@
     "test": "jest --collect-coverage",
     "test:watch": "jest ---watchAll",
     "prepare": "husky install",
-    "build": "tsc --watch"
+    "build": "tsc --watch",
+    "sass": "sass styles.scss:styles.css -w"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +29,7 @@
     "husky": "^8.0.0",
     "jest": "^29.5.0",
     "jest-ts-webcompat-resolver": "^1.0.0",
+    "sas": "^3.0.4",
     "ts-jest": "^29.1.0",
     "typescript": "^5.0.4"
   },
